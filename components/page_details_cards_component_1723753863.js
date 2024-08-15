@@ -7,16 +7,16 @@ Vue.component("page_details_cards_component_1723753863", {
         <h2 id="details-title" class="text-lg font-semibold mb-5 pl-4">Details</h2>
         <ul id="details-list" class="grid gap-4 min-[480px]:grid-cols-3 text-sm">
             <li id="project-length" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" :class="detailsComponentTextStyle">PAGE_DETAIL_1_KEY</div>
-                <div :class="detailsComponentTextSecondaryStyle">PAGE_DETAIL_1_VALUE</div>
+                <div class="font-medium" :class="detailsComponentTextStyle">All-Natural Ingredients</div>
+                <div :class="detailsComponentTextSecondaryStyle">We use only the finest, human-grade ingredients to ensure your furry friend gets the best nutrition possible.</div>
             </li>
             <li id="start-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_2_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">PAGE_DETAIL_2_VALUE</time>
+                <div class="font-medium" id="start-date-des-1" :class="detailsComponentTextStyle">Tail-Wagging Flavors</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="start-time-des-1">From savory chicken to sweet pumpkin, our diverse range of flavors will keep your pup excited for every treat.</time>
             </li>
             <li id="end-date" class="px-5 py-4 rounded-lg" :class="detailsListStyle">
-                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">PAGE_DETAIL_3_KEY</div>
-                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">PAGE_DETAIL_3_VALUE</time>
+                <div class="font-medium" id="end-date-des-1" :class="detailsComponentTextStyle">Vet-Approved Formula</div>
+                <time :class="detailsComponentTextSecondaryStyle" id="end-time-des-1">Our treats are developed with veterinary nutritionists to support your dog's health and well-being.</time>
             </li>
         </ul>
     </section>

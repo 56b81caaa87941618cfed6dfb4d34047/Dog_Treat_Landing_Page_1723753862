@@ -6,7 +6,7 @@
 Vue.component("quoty_faq_accordion_component_1723753863", {
     template: `
     <section class="py-8 bg-white pl-4">
-        <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+        <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions About Our Pawsome Treats</h2>
         <!-- Accordion -->
         <div class="space-y-3">
             <!-- Accordion item -->
@@ -38,10 +38,10 @@ Vue.component("quoty_faq_accordion_component_1723753863", {
             svgFillStyle: "fill-slate-400 dark:fill-slate-500",
             termsTextStyle: "text-slate-500 dark:text-slate-400",
             terms: [
-                { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-                { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-                { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-                { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false },
+                { title: "What makes your dog treats special?", description: "Our treats are made with all-natural, high-quality ingredients, specially formulated to support your dog's health and happiness. We use no artificial preservatives, colors, or flavors, ensuring your furry friend gets only the best.", expanded: false },
+                { title: "Are your treats suitable for dogs with allergies?", description: "Yes! We offer a range of hypoallergenic treats made with novel proteins and limited ingredients. Always check the ingredient list and consult with your vet if your dog has specific dietary requirements.", expanded: false },
+                { title: "How often can I give these treats to my dog?", description: "While our treats are healthy and nutritious, they should be given in moderation as part of a balanced diet. The exact amount depends on your dog's size, age, and activity level. We recommend following the feeding guidelines on the package or consulting with your veterinarian.", expanded: false },
+                { title: "Do you offer a satisfaction guarantee?", description: "Absolutely! We stand behind the quality of our treats. If you or your furry friend are not completely satisfied with your purchase, we offer a 30-day money-back guarantee. Just contact our customer service team, and we'll make it right.", expanded: false },
             ],
         };
     },
